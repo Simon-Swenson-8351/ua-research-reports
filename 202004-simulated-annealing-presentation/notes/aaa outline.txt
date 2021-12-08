@@ -1,0 +1,54 @@
+    I.  Simulated Annealing
+n01     1.  Motivating example (Travelling Salesman)
+            a.  Explanation
+f01         b.  figure
+n01     2.  Naive greedy algorithm, local minimum
+n02     3.  Simulated annealing - Intuitive overview
+n03     4.  Simulated annealing - applied on top of naive algorithm
+r01
+            a.  Explanation of terms
+            b.  Overview of algorithm
+n04         c.  Simulated annealing intuition
+                i.  when temperature is high (lim_inf)
+                ii. when temperature is 1* MISSING FROM NOTES
+                iii.when temperature is low (lim_0)
+f02         d.  figure
+        5.  Simulated annealing in general
+n02         a.  What it requires
+n05         b.  Connection between energy and probability - can be applied on top 
+                of an MCMC algorithm
+                i.  and log probability formulation
+n06         c.  Second motivating example - MCMC over multimodal distribution
+n07         e.  Is it reversible? (unbiased sampler)
+r02
+n08         f.  Limitations
+                i.  Not reversible
+                ii. No guarantee of how *good* of an optimum will result
+                iii.The process must be restarted to arrive at a different optimum.
+r03             iv. How do we choose T(t), along with associated hyperparameters?
+    II. Parallel Tempering
+n09     1.  General idea: parallelize simulated annealing w/ multiple chains at 
+            different temperatures
+f03     2.  figure
+n09         (note how high temperature chains exist throughout the process. 
+            solves restart-for-other-optima problem of simulated annealing)
+f04     3.  figure
+r06     4.  (quick) application to traveling salesman
+        5.  when/how to swap?
+            a.  choosing which chains to swap
+                i.  uniform random
+r05             ii. stochastic even-odd
+r04         b.  determining whether the swap is successful
+            c.  caveat: the choice of swapping affects whether the chain is 
+                reversible! (more in a bit)
+n09             (solves problem of simulated annealing not being reversible)
+        6.  choosing temperatures for the multiple chains
+r04         a.  histograms require overlap
+            b.  Temperature difference should be exponential
+            c.  Experimental and theoretical results show that 20-24% acceptance 
+                ratio of swaps is ideal.
+        8.  speed of information transfer
+            a.  with stochastic swaps, O(n^2)
+r05     9.  solution: non-reversible parallel tempering
+f05
+    III.    Refs

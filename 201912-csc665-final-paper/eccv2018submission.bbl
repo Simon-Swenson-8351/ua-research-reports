@@ -1,0 +1,69 @@
+\begin{thebibliography}{10}
+
+\bibitem{Yilmaz:2006:OTS:1177352.1177355}
+Yilmaz, A., Javed, O., Shah, M.:
+\newblock Object tracking: A survey.
+\newblock ACM Comput. Surv. \textbf{38}(4) (December 2006)
+
+\bibitem{Comaniciu2003}
+Comaniciu, D., Ramesh, V., Meer, P.:
+\newblock Kernel-based object tracking.
+\newblock IEEE Transactions on Pattern Analysis and Machine Intelligence
+  \textbf{25} (may 2003)  564--575
+
+\bibitem{YILMAZ2003623}
+Yilmaz, A., Shafique, K., Shah, M.:
+\newblock Target tracking in airborne forward looking infrared imagery.
+\newblock Image and Vision Computing \textbf{21}(7) (2003)  623 -- 635 Computer
+  Vision beyond the visible spectrum.
+
+\bibitem{4767755}
+Broida, T.J., Chellappa, R.:
+\newblock Estimation of object motion parameters from noisy images.
+\newblock IEEE Transactions on Pattern Analysis and Machine Intelligence
+  \textbf{8}(01) (jan 1986)  90--99
+
+\bibitem{BarShalom1990}
+Bar‐Shalom, Y., Fortmann, T.E., Cable, P.G.:
+\newblock Tracking and data association.
+\newblock The Journal of the Acoustical Society of America \textbf{87}(2)
+  (1990)  918--919
+
+\bibitem{317728}
+Streit, R.L., Luginbuhl, T.E.:
+\newblock Maximum likelihood training of probabilistic neural networks.
+\newblock IEEE Transactions on Neural Networks \textbf{5}(5) (Sep. 1994)
+  764--783
+
+\bibitem{Brau_2013_ICCV}
+Brau, E., Guan, J., Simek, K., Del~Pero, L., Reimer~Dawson, C., Barnard, K.:
+\newblock Bayesian 3d tracking from monocular video.
+\newblock In: The IEEE International Conference on Computer Vision (ICCV).
+  (December 2013)
+
+\bibitem{LI2018323}
+Li, P., Wang, D., Wang, L., Lu, H.:
+\newblock Deep visual tracking: Review and experimental comparison.
+\newblock Pattern Recognition \textbf{76} (2018)  323 -- 338
+
+\bibitem{wu2016physics}
+Wu, J., Lim, J.J., Zhang, H., Tenenbaum, J.B., Freeman, W.T.:
+\newblock Physics 101: Learning physical object properties from unlabeled
+  videos.
+\newblock In: BMVC. Volume~2. (2016) ~7
+
+\bibitem{maksai2016players}
+Maksai, A., Wang, X., Fua, P.:
+\newblock What players do with the ball: A physically constrained interaction
+  modeling.
+\newblock In: Proceedings of the IEEE conference on computer vision and pattern
+  recognition. (2016)  972--981
+
+\bibitem{tsoli2016tracking}
+Tsoli, A., Argyros, A.A.:
+\newblock Tracking deformable surfaces that undergo topological changes using
+  an rgb-d camera.
+\newblock In: 2016 Fourth International Conference on 3D Vision (3DV), IEEE
+  (2016)  333--341
+
+\end{thebibliography}

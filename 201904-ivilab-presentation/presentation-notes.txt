@@ -1,0 +1,22 @@
+Presentation Notes
+
+S3: Explain the joke, but don't belittle physicsts.
+    -If even physicists simplify their models, we should be justified in 
+    simplifying ours.
+S10: Mention that your goal with going over related work is not to explain how they 
+    work, but just what their results are.
+S17: "fracture events in time" is yellow because change will be detected oncce a 
+    fracture event starts, but the actual, individual binary fractures are not 
+    identified once this wave of fracture starts.
+S18-S19 Transition: Mention how object-based approaches overcome one of the 
+    shortcomings of voxel-based by identifying and differentiating individual 
+    objects
+S21: Same reason as in S17 above
+S21-S22 Transition: Mention how the object-based methods previously 
+    mentioned were concerned with long-term change, i.e., images before and 
+    after a scene has changed. However, there is work that reasons about 
+    individual objects over video sequences, like what we're trying to do.
+S35: Mention why every node on the left-hand side needs to go to each Im node
+    -Times are in terms of fracture offsets, so, to find the absolute time 
+    necessary to generate the image (\Delta t^c \times m) Need to add up all 
+    T_i to reason about which fragments are visible at each image capture time.
